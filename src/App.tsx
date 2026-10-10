@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState, useEffect, useRef } from 'react';
 import { Header, ActiveAppView } from './components/Header';
 import { GameHUD } from './components/GameHUD';
@@ -413,6 +414,7 @@ export default function App() {
                     Daily Rush
                   </button>
                 </div>
+                <Analytics/>
               </div>
             )}
 
