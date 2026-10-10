@@ -1,0 +1,6 @@
+{
+  "name": "BrainForge",
+  "description": "BrainForge cognitive playground featuring FlashRecall for working visual memory sprints and ScatterBrain for rapid-fire category word association.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
